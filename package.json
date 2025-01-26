@@ -1,0 +1,30 @@
+{
+  "name": "application_with_parcel",
+  "version": "1.0.0",
+  "description": "this is the application by parcel",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hareesh7036/App_with_parcel.git"
+  },
+  "author": "hareesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hareesh7036/App_with_parcel/issues"
+  },
+  "homepage": "https://github.com/Hareesh7036/App_with_parcel#readme",
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.13.3",
+    "process": "^0.11.10"
+  },
+  "browserslist":["last 2 versions"]
+}
